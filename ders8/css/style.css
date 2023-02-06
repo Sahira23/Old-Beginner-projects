@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* !Global Css */
+.d-flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.direction-column {
+  flex-direction: column;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+.bg-line {
+  background-color: #80bffd;
+}
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ? Global-->Block Css */
+.round {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.mt-sm {
+  margin-top: 4px;
+}
+.mt-md {
+  margin-top: 10px;
+}
+.ml-md {
+  margin-left: 10px;
+}
+.mt-b {
+  margin-top: 40px;
+}
+.ml-b {
+  margin-left: 20px;
+}
+/* ?Global-->Button and Input Style */
+.input-global {
+  border: 1px solid #eaeaea;
+  padding-left: 12px;
+  width: 200px;
+}
+.input-global:focus {
+  outline: 1px solid #eaeaea;
+}
+.inputglobal {
+  width: 120px;
+  border: 1px solid #eaeaea;
+  padding-left: 12px;
+}
+.bt-style {
+  width: 80px;
+}
+.date-button {
+  width: 60px;
+  height: 25px;
+}
+.date {
+  width: 200px;
+}
+.bg-violet {
+  background: violet;
+  color: white;
+  border: 1px solid violet;
+}
+.bg-violet:hover {
+  background: white;
+  color: violet;
+  cursor: pointer;
+}
+.bt-md {
+  width: 150px;
+}
+.outline-none {
+  outline: none;
+}
+/* ?Global--> Inline Css */
+.p-md {
+  padding: 10px;
+}
+.px-md {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.py-b {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.py-sm {
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+.py-md {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+/* !Common Css */
+form {
+  max-width: 60%;
+}
+.form-line {
+  padding: 4px 10% 4px 10px;
+}
+.form-line span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: red;
+  font-size: 1.188rem;
+}
+.form-line p {
+  color: white;
+  margin-left: 8px;
+}
+.form-line > div:last-child {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+.form-line i {
+  color: #a7a5a3;
+  font-size: 1.563rem;
+}
+.form-content > div {
+  width: 50%;
+}
+.input-date {
+  width: 50px;
+  height: 25px;
+}
+.fa-lock {
+  font-size: 100px;
+  color: orange;
+}
+.text-style {
+  font-size: small;
+  color: #757575;
+}
+.product-info > img {
+  width: 150px;
+  height: 150px;
+}
+.text-bold {
+  font-weight: bold;
+  font-size: 15px;
+}
+/* !Checkbox and Radio */
+.checkbox-label,
+.radio-label {
+  font-size: small;
+  margin-left: 15px;
+  color: #757575;
+}
+.checkbox-style {
+  width: 11px;
+  height: 11px;
+}
+.radio-style {
+  width: 11px;
+  height: 11px;
+}

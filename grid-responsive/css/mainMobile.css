@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(4,50vh) ;
+    background-color: bisque;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    background-color: cadetblue;
+}
+.aside{
+    background-color: chartreuse;
+}
+.main{
+    background-color: coral;
+}
+.footer{
+    background-color: cornsilk;
+}

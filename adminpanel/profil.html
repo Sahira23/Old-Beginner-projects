@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- !STYLE CSS -->
+    <link rel="stylesheet" href="./css/profil-css/mainMobile.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:768px)"
+      href="./css/profil-css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:992px)"
+      href="./css/profil-css/desktop.css"
+    />
+    <!-- !ICON CSS -- FONT AWESOME -->
+    <link rel="stylesheet" href="fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="fonts/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- !MENU-PANEL -->
+      <div class="menu-panel">
+        <div class="logo d-flex align-center justify-center">
+          <i class="fas fa-laugh-wink"></i>
+          <h3 class="ml-md">BRAND</h3>
+        </div>
+        <ul>
+          <!-- !Dashboard -->
+          <li class="list-item active">
+            <i class="fas fa-tachometer-alt"></i>
+            <a href="./index.html">Dashboard</a>
+          </li>
+          <!-- !Profile -->
+          <li class="list-item">
+            <i class="fas fa-user"></i>
+            <a href="./profil.html">Profile</a>
+          </li>
+          <!-- !Table -->
+          <li class="list-item">
+            <i class="fas fa-table"></i>
+            <a href="#">Table</a>
+          </li>
+          <!-- !Login -->
+          <li class="list-item">
+            <i class="far fa-user-circle"></i>
+            <a href="./login.html">Login</a>
+          </li>
+          <!-- !Register -->
+          <li class="list-item">
+            <i class="fas fa-user-circle"></i>
+            <a href="./register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+      <!-- !SEARCH AND NOTIFICATION -->
+      <div class="search-notification">
+        <i class="fas fa-bars"></i>
+        <!-- !SEARCH -->
+        <div class="search">
+          <input
+            type="text "
+            placeholder="Search for..."
+            name="search"
+            id="search"
+          />
+          <label for="search">
+            <button><i class="fas fa-search"></i></button>
+          </label>
+        </div>
+        <div class="notification">
+          <div class="bell">
+            <i class="fas fa-bell fa-fw"></i>
+            <span class="new-notification">3+</span>
+          </div>
+          <div class="envelope">
+            <i class="fas fa-envelope fa-fw"></i>
+            <span class="new-notification">7</span>
+          </div>
+          <div class="divider"></div>
+          <div class="profile"></div>
+        </div>
+
+      </div>
+      <!-- !PROFIL -->
+      <div class="profil">
+        <!-- !ROW1 -->
+        <div class="head">
+          <h1>Profile</h1>
+        </div>
+        <div class="columns">
+        <!-- !Col1 -->
+        <div class="col1">
+          <!-- !PROFILE PHOTO -->
+          <div class="profile-photo">
+            <img src="./img/dogs/image2.jpeg" alt="profile-photo" />
+            <button type="button">Change Photo</button>
+          </div>
+            <!-- !PROJECTS -->
+            <div class="projects">
+              <div class="projects">
+                <div class="top">
+                  <h6>PROJECTS</h6>
+                </div>
+                <div class="bottom">
+                 <!-- !SERVER MIGRATION -->
+                 <div class="server-migration">
+                   <div class="head ">
+                     <h4>Server Migration</h4>
+                     <span>20%</span>
+                   </div>
+                   <div class="progress">
+                     <div class="percentage"></div>
+                   </div>
+                 </div>
+                 <!-- !SALES TRACKING -->
+                 <div class="sales-tracking">
+                   <div class="head">
+                     <h4>Sales Tracking</h4>
+                     <span>40%</span>
+                   </div>
+                   <div class="progress">
+                     <div class="percentage"></div>
+                   </div>
+                 </div>
+                 <!-- !CUSTOMER DATABASE -->
+                 <div class="customer-database">
+                   <div class="head">
+                     <h4>Customer Database
+                      <span style="float: right;">60%</span>
+                     </h4>
+                   </div>
+                   <div class="progress">
+                     <div class="percentage"></div>
+                   </div>
+                 </div>
+                 <!-- !PAYOUT DETAILS -->
+                 <div class="payout-details">
+                   <div class="head">
+                     <h4>Payout Details</h4>
+                     <span>80%</span>
+                   </div>
+                   <div class="progress">
+                     <div class="percentage"></div>
+                   </div>
+                 </div>
+                 <!-- !ACCOUNT SETUP -->
+                 <div class="account-setup">
+                   <div class="head">
+                     <h4>Account Setup
+                      <span style="float: right;">Complete</span>
+                     </h4>
+                   </div>
+                   <div class="progress">
+                     <div class="percentage"></div>
+                   </div>
+                 </div>
+                 </div>
+               </div>
+            </div>
+            </div>
+
+          <div class="col2">
+                      <!-- !USER SETTINGS -->
+          <div class="user-settings">
+            <!-- !TOP -->
+            <div class="top">
+              <h6>User Settings</h6>
+            </div>
+            <!-- !BOTTOM -->
+            <div class="bottom">
+              <div class="first-row">
+                <!-- !NAME -->
+                <div class="name">
+                <label for="username">Usename</label>
+                <input type="text" name="username" id="username" placeholder="user.name"/>
+              </div>
+              <!-- !EMAIL -->
+              <div class="email">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="user@example.com"/>
+              </div>
+              </div>
+              <div class="second-row">
+                <!-- !FIRST NAME -->
+               <div class="first-name">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="John"/>
+               </div>
+               <!-- !LAST-NAME -->
+               <div class="last-name">
+                <label for="last-name">Name</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Doe"/>
+               </div>
+              </div>
+              <!-- !BUTTON SAVE -->
+              <button type="submit">Save Settings</button>
+            </div>
+          </div>
+
+            <!-- !CONTACT SETTINGS -->
+            <div class="contact-settings">
+              <!-- !TOP -->
+           <div class="top">
+           <h6>  Contact Settings</h6>
+           </div>
+           <!-- !BOTTOM -->
+           <div class="bottom">
+             <!-- !1 -->
+              <div class="row1">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" placeholder="Sunset Blvd,38"/>
+              </div>
+              <!-- !2 -->
+              <div class="row2">
+                <!-- !CITY -->
+                <div class="city">
+                  <label for="city">City</label>
+                  <input type="text" name="city" id="city" placeholder="Los Angeles"/>
+                </div>
+                <!-- !COUNTRY -->
+                <div class="country">
+                  <label for="country">Country</label>
+                  <input type="text" name="country" id="country" placeholder="USA "/>
+                </div>
+              </div>
+                            <!-- !BUTTON SAVE -->
+              <button type="submit">Save Settings</button>
+           </div>
+            </div>
+          </div>
+        </div>
+          <div class="col3">
+          <!-- !FORUM SETTINGS -->
+          <div class="forum-settings">
+            <!-- !TOP -->
+            <div class="top">
+              <h6>Forum Settings</h6>
+            </div>
+            <!-- !BOTTOM -->
+            <div class="bottom ">
+              <label for="signature">Signature</label>
+              <textarea name="signature" id="signature" rows="10"></textarea>
+              <label for="noity" style="display: block;"> Notify me about new replies</label>
+                            <!-- !BUTTON SAVE -->
+              <button type="submit">Save Settings</button>
+            </div>
+          </div>
+        </div>
+        </div>
+              <!-- !FOOTER -->
+      <footer>
+        <p>Copyright © Brand 2021</p>
+      </footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+
+
+  .container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+
+.row3{
+    display: grid;
+    grid-template-columns: 60% 35%;
+    grid-column-gap: 5%;
+  }
+.row4{
+    margin-top: 1.875rem;
+    display: grid;
+    grid-template-columns: repeat(2,47%);
+    grid-column-gap: 50px;
+}
+.colors{
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+    grid-template-rows: repeat(3,100px);
+    grid-column-gap: 20px;
+}

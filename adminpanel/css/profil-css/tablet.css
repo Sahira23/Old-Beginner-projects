@@ -1,0 +1,90 @@
+
+
+
+.menu-panel .list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.1875rem;
+}
+.menu-panel .list-item>a{
+    font-size: .9375rem;
+}
+.search-notification .fa-bars{
+    display: none;
+}
+.search-notification .search{
+    display: flex;
+
+}
+.search-notification .search>input,
+.search-notification .search>div{
+    display: initial;
+}
+.search-notification .search input{
+    padding: .375rem .75rem;
+    width: 15.625rem;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -moz-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -ms-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.search-notification .search>input::placeholder{
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #858796; */
+    font-size: .85rem;
+}
+.search-notification .search{
+    overflow: hidden;
+   border-radius: 0.35rem;
+   -webkit-border-radius: 0.35rem;
+   -moz-border-radius: 0.35rem;
+   -ms-border-radius: 0.35rem;
+   -o-border-radius: 0.35rem;
+}
+.search-notification .search label>button{
+    display: initial;
+    background-color: #4262be;
+    border-color: #3e5cb2;
+    border: none;
+    outline: none;
+    padding: .375rem .75rem;
+    color: white; 
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+    text-align: center;  
+}
+.search-notification .search label>button>i{
+    color: white;
+}
+.divider{
+    width: 0;
+    border-right: 1px solid #e3e6f0;
+    height: calc(4.375rem - 2rem);
+    margin: auto 1rem;
+}
+.profile{
+    display: initial;
+    height: 2rem;
+    width: 2rem;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    background-image: url('./../img/avatars/avatar1.jpeg');
+}
+.notification{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+:root {
+  --color-primary: #4e73df;
+  --color-sucsess: #1cc88a;
+  --color-info: #36b9cc;
+  --color-warning: #f6c23e;
+  --color-danger: #e74a3b;
+  --color-secondary: #858796;
+}
+body {
+  background-color: #4d71db;
+}
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.card {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.35rem;
+  -webkit-border-radius: 0.35rem;
+  -moz-border-radius: 0.35rem;
+  -ms-border-radius: 0.35rem;
+  -o-border-radius: 0.35rem;
+  overflow: hidden;
+}
+.card > .left-picture {
+  display: none;
+}
+.right {
+  padding: 3rem;
+}
+.right > h4 {
+  color: rgb(58, 59, 69);
+  margin-bottom: 1.5rem;
+  font-size: calc(1.275rem + 0.3vw);
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+.right input {
+  width: 100%;
+  border-radius: 10rem;
+  padding: 1rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d1d3e2;
+  margin-bottom: 20px;
+  outline: none;
+}
+.right input::placeholder,
+.right label {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #858796;
+}
+.right button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0.75rem 1rem;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+.right button > a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+.row3 {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+}
+.row3 > input {
+  float: left;
+  margin-left: -1.5em;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+}
+.btn-primary {
+  background-color: var(--color-primary);
+}
+.row4,
+.row5 {
+  border-bottom: 1px solid #bbb;
+}
+.btn-google {
+  background-color: var(--color-danger);
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-facebook {
+  background-color: #3b5998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-google i,
+.btn-facebook i {
+  color: #fff;
+  padding: 0;
+}
+.row6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.row6 a {
+  font-size: 0.875em;
+  color: var(--color-primary);
+  text-align: center;
+}

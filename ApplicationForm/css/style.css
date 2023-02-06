@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* !GLOBAL CSS */
+.useless {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.d-flex {
+  display: flex;
+}
+.direction-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+/* !COMMON CSS */
+.container {
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.container input:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+.container h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container label {
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+.container input {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+form > div {
+  margin-bottom: 15px;
+}
+.row1 {
+  margin-top: 20px;
+}
+.row1 input {
+  width: 550px;
+}
+.row5 span,
+.row6 span {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.line3 input,
+.line4 input {
+  width: 550px;
+}
+.qualification textarea {
+  width: 550px;
+  height: 90px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+.experience input {
+  width: 550px;
+}
+.row7 input {
+  border: 2px solid #ced4da;
+  border-radius: 50rem;
+  -webkit-border-radius: 50rem;
+  -moz-border-radius: 50rem;
+  -ms-border-radius: 50rem;
+  -o-border-radius: 50rem;
+}
+.row7 p {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.row8{
+  padding: 10px;
+  border: 4px dashed purple;
+}
+.row8 p {
+  color: purple;
+  font-size: 16px;
+  font-weight: bold;
+}
+.end > button {
+  border: none;
+  outline: none;
+  width: 550px;
+}
+.end > button:hover {
+  background-color: white;
+  border-radius: 50rem;
+  -webkit-border-radius: 50rem;
+  -moz-border-radius: 50rem;
+  -ms-border-radius: 50rem;
+  -o-border-radius: 50rem;
+  height: 30px;
+  border: 1px solid #ced4da;
+}

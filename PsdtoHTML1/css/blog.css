@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* !GLOBAL CSS */
+.useless {
+  padding-left: 16%;
+  padding-right: 16%;
+}
+.mt-sm {
+  margin-top: 20px;
+}
+.mt-md {
+  margin-top: 28px;
+}
+/* !GLOBAL CSS-->FLEX */
+.d-flex {
+  display: flex;
+}
+.direction-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+
+/* !COMMON CSS */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header {
+  height: 83px;
+}
+/* !Nav-bar */
+nav {
+  height: 90px;
+}
+.links {
+  width: 595px;
+}
+.pages > p {
+  font-size: 15px;
+  line-height: 21px;
+  color: #a5a5a5;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+}
+.pages > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 21px;
+  color: #474747;
+  font-family: "Bebas Neue", cursive;
+}
+/* !ARTICLE TOP10 WEBSITES */
+.left {
+  width: 71%;
+  padding-top: 70px;
+  padding-bottom: 55px;
+}
+.blog h1 {
+  font-size: 24px;
+  line-height: 18px;
+  color: #474747;
+  font-family: "Bebas Neue", cursive;
+}
+.blog p {
+  width: 605px;
+  height: 39px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #9e9e9e;
+  font-style: italic;
+  font-family: "Helvetica Neue";
+  margin-top: 15px;
+}
+.side-bar {
+  width: 29%;
+}
+.line {
+  width: 650px;
+  height: 5px;
+}
+.left h2 {
+  margin-top: 40px;
+  font-size: 18px;
+  color: #464646;
+  font-family: "Bebas Neue", cursive;
+}
+.image {
+  margin-top: 17px;
+}
+.post-info {
+  margin-top: 30px;
+}
+.stats h5 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #464646;
+  font-family: "Bebas Neue", cursive;
+}
+.stats p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #999999;
+  font-family: "Helvetica Neue";
+}
+.title {
+  width: 501px;
+  height: 135px;
+}
+.title p {
+  margin-left: 55px;
+  width: 501px;
+  height: 188px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #414141;
+  font-family: "Helvetica Neue";
+}
+/* !SIDE-BAR */
+.side-bar {
+  width: 290px;
+  padding-top: 122px;
+  padding-left: 65px;
+  padding-bottom: 120px;
+}
+.side-bar h4 {
+  font-size: 18px;
+  color: #464646;
+  font-family: "Bebas Neue", cursive;
+}
+.side-bar img {
+  margin-top: 15px;
+}
+.about {
+  padding-bottom: 32px;
+}
+.side-bar p {
+  font-size: 12px;
+  color: #464646;
+  font-family: "Helvetica Neue";
+  margin-top: 20px;
+}
+.about h6 {
+  font-size: 12px;
+  color: #464646;
+  font-family: "Helvetica Neue";
+}
+.twitter {
+  font-size: 12px;
+  line-height: 14px;
+  color: #464646;
+  font-weight: 300;
+  font-family: "Helvetica Neue";
+}
+p.twitter > span {
+  font-size: 12px;
+  line-height: 18px;
+  color: #9e9e9e;
+  font-family: "Helvetica Neue";
+}
+p.hour {
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+  font-family: "Helvetica Neue";
+  margin-top: 12px;
+}
+.second {
+  width: 71%;
+  padding-bottom: 55px;
+  padding-top: 50px;
+}
+.second > h2 {
+  margin-top: 40px;
+  font-size: 18px;
+  color: #464646;
+  font-family: "Bebas Neue", cursive;
+}
+.counter {
+  margin-bottom: 45px;
+}
+/* !FOOTER */
+footer {
+  background-color: #eee;
+  height: 75px;
+  margin-top: 65px;
+}
+footer p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #9b9b9b;
+  font-family: "Helvetica Neue";
+}
+.site {
+  height: 70px;
+}

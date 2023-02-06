@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Icon-FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/e1929bc29f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form class="block-center">
+                             <!-- 1 -->
+      <div class="form-group">
+                                                                          <!-- !Form-line -->
+        <div class="form-line bg-line d-flex align-center justify-between">
+                                          <!-- !Font-Side -->
+          <div class="d-flex align-center">
+            <span class="round">1</span>
+            <p>Email Adress</p>
+          </div>
+                                                               <!-- !Icon-Side -->
+          <div class="round d-flex justify-center align-center">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+                                            <!-- !Form-Content -->
+        <div class="form-content p-md d-flex direction-column align-start email-content">
+          <input type="email" name="email" id="email" placeholder="Email address" class="input-global py-md outline-none">
+          <input type="submit" class="align-self-end bt-md bg-violet outline-none py-sm mt-sm" value="Login"/>
+          <button type="button" class="align-self-end bt-md bg-violet outline-none py-sm mt-sm">Create Account</button>
+          <button type="button" class="align-self-end bt-md bg-violet outline-none py-sm mt-md">Continue</button>
+        </div>
+      </div>
+                             <!-- 2 -->
+      <div class="form-group">
+                                                                          <!-- !Form-line -->
+        <div class="form-line bg-line d-flex align-center justify-between">
+                                          <!-- !Font-Side -->
+          <div class="d-flex align-center">
+            <span class="round">2</span>
+            <p>Billing Information</p>
+          </div>
+                                                               <!-- !Icon-Side -->
+          <div class="round d-flex justify-center align-center">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+                                                                           <!-- !Form-Content -->
+        <div class="form-content p-md d-flex direction-column align-start ">
+          <!-- Billing information  -->
+          <input type="text" name="name" id="name" placeholder="John" class="input-global py-md outline-none">          
+          <input type="text" name="surname" id="surname" placeholder="Smith" class="input-global py-md outline-none mt-sm">          
+          <input type="tel" name="phonenumber" id="phonenumber" placeholder="(555)-867-5309" class="input-global py-md outline-none mt-sm">          
+          <input type="text" name="company" id="company" placeholder="Company" class="input-global py-md outline-none mt-sm">          
+          <input type="text" name="street" id="address" placeholder="123 Main Street" class="input-global py-md outline-none mt-sm">          
+          <input type="text" name="town" id="town" placeholder="Everytown" class="input-global py-md outline-none mt-sm">
+          <!-- State -->
+          <div class="d-flex">
+            <input type="text" name="state" id="state" placeholder="Alabama" class="inputglobal py-md outline-none mt-sm ">           
+            <button type="button" class="bt-style bg-violet outline-none py-sm mt-sm ">State</button>
+          </div> 
+          <input type="text" name="number" id="number" placeholder="12345" class="input-global py-md outline-none mt-sm"> 
+          <!-- Country -->
+          <div class="d-flex">
+            <input type="text" name="country" id="country" placeholder="United States" class="inputglobal py-md outline-none mt-sm ">           
+            <button type="button" class="bt-style bg-violet outline-none py-sm mt-sm ">Country</button>
+          </div> 
+          <!-- Save as checkbox -->
+          <div class="d-flex align-center ">
+             <input type="checkbox" id="save" name="save" class="mt-md checkbox-style">  
+             <label for="save" class="checkbox-label mt-md ">Save as shipping address</label>   
+          </div>
+          <!-- Continue button -->
+          <button type="button" class="align-self-end bt-md bg-violet outline-none py-sm ">Continue</button>
+        </div>
+      </div>
+                             <!-- 3 -->
+      <div class="form-group">
+                                                                          <!-- !Form-line -->
+        <div class="form-line bg-line d-flex align-center justify-between">
+                                          <!-- !Font-Side -->
+          <div class="d-flex align-center">
+            <span class="round">3</span>
+            <p>Shipping Information</p>
+          </div>
+                                                               <!-- !Icon-Side -->
+          <div class="round d-flex justify-center align-center">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+                                            <!-- !Form-Content -->
+        <div class="form-content p-md d-flex direction-column align-start">
+          <!-- 1 -->
+          <div>
+            <input type="radio" id="standart" name="standart" value="standartshipping" class="radio-style">
+            <label for="huey" class="radio-label">Standart Shipping $4.00</label>
+          </div>
+          <!-- 2 -->
+          <div>
+            <input type="radio" id="express" name="express" value="expresssipping" class="radio-style">
+            <label for="huey" class="radio-label">Express Shipping $6.00</label>
+          </div>
+          <!-- 3 -->
+          <div>
+            <input type="radio" id="overnight" name="overnight" value="overnightshipping" class="radio-style">
+            <label for="huey" class="radio-label">Overnight Shipping $12.00</label>
+          </div>
+          <!-- Continue button -->
+          <button type="button" class="align-self-end bt-md bg-violet outline-none py-sm ">Continue</button>  
+        </div>
+      </div>
+                             <!-- 4 -->
+      <div class="form-group">
+                                                                          <!-- !Form-line -->
+        <div class="form-line bg-line d-flex align-center justify-between">
+                                          <!-- !Font-Side -->
+          <div class="d-flex align-center">
+            <span class="round">4</span>
+            <p>Payment Information</p>
+          </div>                                                <!-- !Icon-Side -->
+          <div class="round d-flex justify-center align-center">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+                                                                        <!-- !Form-Content -->
+        <div class="form-content p-md  d-flex justify-between flex-wrap">
+          <div class="d-flex direction-column">
+            <input type="password" name="cardnumber" id="cardnumber" placeholder="xxxx-xxxx-xxxx-xxxx" class="input-global py-md outline-none mt-sm">
+            <!-- Date INPUT -->
+            <div class="d-flex justify-between date">
+            <input type="date" name="date" id="date"  class="input-date py-md outline-none mt-sm">
+            <input type="time" name="time" id="time"  class="input-date py-md outline-none mt-sm">
+            <button type="button" class="bt-date bg-violet outline-none  mt-sm ">Exp Date</button>
+          </div>
+          <!-- CV code -->
+          <input type="password" name="cvcode" id="cccode" placeholder="123" class="input-global py-md outline-none mt-sm">
+          </div>
+          <!-- Cards -->
+          <div class="d-flex direction-column ">
+            <img src="./images/Credit-Cards.jpg" alt="cards">
+            <div class="d-flex mt-md">
+            <i class="fas fa-lock"></i>
+            <p class="ml-md text-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, atque.</p>
+          </div>
+          <!-- Continue button -->
+          <button type="button" class=" align-self-end bt-md bg-violet outline-none py-sm  mt-md">Continue</button>  
+          </div>
+        </div>
+                             <!-- 5 -->
+      <div class="form-group">
+                                                                          <!-- !Form-line -->
+        <div class="form-line bg-line d-flex align-center justify-between">
+                                          <!-- !Font-Side -->
+          <div class="d-flex align-center">
+            <span class="round">5</span>
+            <p>Finalize Order</p>
+          </div>
+                                                               <!-- !Icon-Side -->
+          <div class="round d-flex justify-center align-center">
+            <i class="fas fa-plus-circle"></i>
+          </div>
+        </div>
+                                              <!-- !Form-Content -->
+        <div class="form-content p-md d-flex ">
+          <!-- Order Total Information -->
+          <div class="d-flex direction-column">
+           <div class="d-flex justify-between product-info">
+             <!-- Image -->
+             <img src="./images/cherry.jpg" alt="cherry">
+             <!-- Order list -->
+             <div class="d-flex direction-column">
+               <p class="text-style" >Cherry dress</p>
+             </div>
+             <!-- Order cost -->
+             <div class="d-flex direction-column">
+                 <p class="text-style"> 1.$45.00</p>
+             </div>
+           </div>
+           <hr class="mt-md"/>
+           <!-- Final information about cost -->
+            <p class="align-self-end text-style mt-sm">Subtotal $45.00 </p>
+            <p class="align-self-end text-style mt-sm">Tax $2.00</p>
+            <p class="align-self-end text-style mt-sm">Shipping $4.00</p>
+           <hr class="mt-md"/>
+           <p class="text-bold align-self-end mt-sm">Total $51.00</p>
+          </div>
+          <!-- Shipping And Billing Total information -->
+          <div class="d-flex direction-column">
+            <!-- Billing info -->
+             <div class="billing d-flex justify-between ml-b text-style ">
+               <p >Billing:</p>
+               <div class="d-flex direction-column">
+               <p >John Smith</p>
+               <p>123 Main Street</p>
+               <p >Everytpwn USA,12345</p>
+               <p >(034)1234456</p>
+               </div>
+             </div>
+             <!-- Shipping info -->
+             <div class="billing d-flex justify-between ml-b text-style mt-md ">
+              <p >Shipping:</p>
+              <div class="d-flex direction-column">
+              <p >John Smith</p>
+              <p>123 Main Street</p>
+              <p >Everytpwn USA,12345</p>
+              <p >(034)1234456</p>
+              </div>
+            </div>
+            <!-- Payment info -->
+            <div class="billing d-flex justify-between ml-b text-style mt-md">
+              <p >Payment:</p>
+              <div class="d-flex direction-column">
+              <p >Visa</p>
+              <p>xxxx-xxxx-xxxx-xxxx12</p>
+              </div>
+            </div>
+            <!-- Competing Order button -->
+            <button type="button" class="bg-violet outline-none py-b ml-b mt-b justify-end">Complate Order</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

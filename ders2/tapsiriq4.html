@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cedvel</title>
+</head>
+<style>
+    .lighter{
+        background-color: #B6EB7A;
+    }
+    .darkgreen{
+        background-color: #289672;
+    }
+    .lightgreen{
+        background-color: #29BB89;
+    }
+    .red{
+        background-color: #F55C47;
+    }
+    .orange{
+        background-color: #F58634;
+    }
+    .brown{
+        background-color: #E48900;
+    }
+    .lightest{
+      background-color: #CCFFBD;
+    }
+    .lightred{
+        background-color: #FABEA7;
+    }
+    .yellow{
+        background-color: #CDC733;
+    }
+    td{
+        text-align: center;
+    }
+</style>
+<body style="background-color: #EEEEEE;">
+    <table border="1"  cellspacing="0">
+    <tr>
+        <td colspan="3"> 98%</td>
+        <td colspan="4" style="background-color: #FFDFA4;">Compilers/polyfills</td>
+        <td colspan="20"  style="background-color:#FFF4C3"> DEsktop Browsers</td>
+    </tr>
+    <tr>
+    <td>Feature names</td>
+    <td>Current Browser</td>
+    <td></td>
+    <td>Babel7+core-js-3</td>
+    <td>Closure 2020.09</td>
+    <td>Type-script+core-js-3</td>
+    <td>es6- shim</td>
+    <td>Konq 4.14</td>
+    <td>IE11</td>
+    <td style="background-color: #F7C177">FF78ESR</td>
+    <td style="background-color: #F7C177">FF88</td>
+    <td style="background-color: #F7C177">FF89</td>
+    <td style="background-color: #F7D699;">FF90</td>
+    <td style="background-color: #F7D699;">FF91</td>
+    <td style="background-color: #B7D577;">CH88</td>
+    <td style="background-color: #B7D577;">CH89</td>
+    <td style="background-color: #B7D577;">CH90</td>
+    <td style="background-color: #CEE799;">CH91</td>
+    <td style="background-color: #CEE799;">CH92</td>
+    <td style="background-color: #B7D577;">EDGE89</td>
+    <td style="background-color: #B7D577;">EDGE90</td>
+    <td style="background-color: #C7CDDA;">SF14</td>
+    <td style="background-color: #C7CDDA;">SF14.1</td>
+    <td style="background-color: #DBE0EB;">SF15</td>
+    <td style="background-color: #DBE0EB;" >SF TP</td>
+    <td style="background-color: #DBE0EB;">WK</td>
+    <td style="background-color: #DD7E82;">OP75</td>
+</tr>
+<tr>
+   <td colspan="27">Optimisation</td>
+</tr>
+<tr>
+    <td>proper tail calls (tail call optimisation)</td>
+    <td class="red">0/2</td>
+    <td width="15px"></td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="lightred">0/2</td>
+    <td class="lightred">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="lightred">0/2</td>
+    <td class="lightred">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="red">0/2</td>
+</tr>
+<tr>
+    <td colspan="27">Syntax</td>
+ </tr>
+ <tr>
+    <td>default function parametres</td>
+    <td class="darkgreen">7/7</td>
+    <td width="15px"></td>
+    <td class="lighter">4/7</td>
+    <td class="lightgreen">5/7</td>
+    <td class="lightgreen">5/7</td>
+    <td class="red">0/7</td>
+    <td class="red">0/7</td>
+    <td class="red">0/7</td>
+    <td class="darkgreen">0/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="darkgreen">7/7</td>
+</tr>
+<tr>
+    <td>rest parametres</td>
+    <td class="darkgreen">5/5</td>
+    <td width="15px"></td>
+    <td class="lighter">3/5</td>
+    <td class="orange">2/5</td>
+    <td class="lightgreen">4/5</td>
+    <td class="red">0/5</td>
+    <td class="red">0/5</td>
+    <td class="red">0/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="lightest">5/5</td>
+    <td class="lightest">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="lightest">5/5</td>
+    <td class="lightest">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="darkgreen">5/5</td>
+    <td class="lightest">5/5</td>
+    <td class="lightest">5/5</td>
+    <td class="lightest">5/5</td>
+    <td class="darkgreen">5/5</td>
+</tr>
+<tr>
+    <td>Spread syntax for iterable objects</td>
+    <td class="darkgreen">15/15</td>
+    <td width="15px"></td>
+    <td class="lightgreen">14/15</td>
+    <td class="lighter">11/15</td>
+    <td class="lightgreen">14/15</td>
+    <td class="red">0/15</td>
+    <td class="red">0/15</td>
+    <td class="red">0/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="lightest">15/15</td>
+    <td class="lightest">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="lightest">15/15</td>
+    <td class="lightest">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="darkgreen">15/15</td>
+    <td class="lightest">15/15</td>
+    <td class="lightest">15/15</td>
+    <td class="lightest">15/15</td>
+    <td class="darkgreen">15/15</td>
+</tr>
+<tr>
+    <td>object literal extensions</td>
+    <td class="darkgreen">6/6</td>
+    <td width="15px"></td>
+    <td class="darkgreen">6/6</td>
+    <td class="lightgreen">5/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="red">0/6</td>
+    <td class="red">0/6</td>
+    <td class="red">0/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="darkgreen">6/6</td>
+</tr>
+<tr>
+    <td>for..of loops</td>
+    <td class="darkgreen">9/9</td>
+    <td width="15px"></td>
+    <td class="darkgreen">9/9</td>
+    <td class="lighter">6/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="red">0/9</td>
+    <td class="red">0/9</td>
+    <td class="red">0/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="lightest">9/9</td>
+    <td class="lightest" >9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="lightest" >9/9</td>
+    <td class="lightest" >9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="darkgreen">9/9</td>
+    <td class="lightest">9/9</td>
+    <td class="lightest">9/9</td>
+    <td class="lightest">9/9</td>
+    <td class="darkgreen">9/9</td>
+</tr>
+<tr>
+    <td>octal and binary literals</td>
+    <td class="darkgreen">4/4</td>
+    <td width="15px"></td>
+    <td class="darkgreen">4/4</td>
+    <td class="yellow">2/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="yellow">2/4</td>
+    <td class="red">0/4</td>
+    <td class="red">0/4</td>
+    <td class="darkgreen">4/</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="darkgreen">4/4</td>
+</tr>
+<tr>
+    <td>template literals</td>
+    <td class="darkgreen">7/7</td>
+    <td width="15px"></td>
+    <td class="lightgreen">6/7</td>
+    <td class="lighter">5/7</td>
+    <td class="lighter">5/7</td>
+    <td class="red">0/7</td>
+    <td class="red">0/7</td>
+    <td class="red">0/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="darkgreen">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="lightest">7/7</td>
+    <td class="darkgreen">7/7</td>
+</tr>
+<tr>
+    <td>RegExp "y"and"u"flags</td>
+    <td class="darkgreen">6/6</td>
+    <td width="15px"></td>
+    <td class="darkgreen">6/6</td>
+    <td class="red">0/6</td>
+    <td class="orange">2/6</td>
+    <td class="red">0/6</td>
+    <td class="red">0/6</td>
+    <td class="red">0/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="darkgreen">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="lightest">6/6</td>
+    <td class="darkgreen">6/6</td>
+</tr>
+<tr>
+    <td>destructuring declarations</td>
+    <td class="darkgreen">22/22</td>
+    <td width="15px"></td>
+    <td class="lightgreen">21/22</td>
+    <td class="lightgreen">20/22</td>
+    <td class="lightgreen">21/22</td>
+    <td class="red">0/22</td>
+    <td class="red">0/22</td>
+    <td class="red">0/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="lightest">22/22</td>
+    <td class="lightest">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="lightest">22/22</td>
+    <td class="lightest">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="darkgreen">22/22</td>
+    <td class="lightest">22/22</td>
+    <td class="lightest">22/22</td>
+    <td class="lightest">22/22</td>
+    <td class="darkgreen">22/22</td>
+</tr>
+<tr>
+    <td>destructuring assignments</td>
+    <td class="darkgreen">24/24</td>
+    <td width="15px"></td>
+    <td class="darkgreen">24/24</td>
+    <td class="lightgreen">22/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="red">0/24</td>
+    <td class="red">0/24</td>
+    <td class="red">0/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="lightest">24/24</td>
+    <td class="lightest">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="lightest">24/24</td>
+    <td class="lightest">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="darkgreen">24/24</td>
+    <td class="lightest">24/24</td>
+    <td class="lightest">24/24</td>
+    <td class="lightest">24/24</td>
+    <td class="darkgreen">24/24</td>
+</tr>
+<tr>
+    <td>destructuring parametres</td>
+    <td class="darkgreen">25/25</td>
+    <td width="15px"></td>
+    <td class="lightgreen">22/25</td>
+    <td class="lightgreen">21/25</td>
+    <td class="lightgreen">22/25</td>
+    <td class="red">0/25</td>
+    <td class="red">0/25</td>
+    <td class="red">0/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="lightest">25/25</td>
+    <td class="lightest">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="lightest">25/25</td>
+    <td class="lightest">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="darkgreen">25/25</td>
+    <td class="lightest">25/25</td>
+    <td class="lightest">25/25</td>
+    <td class="lightest">25/25</td>
+    <td class="darkgreen">25/25</td>
+</tr>
+<tr>
+    <td>Unicode code point escapes</td>
+    <td class="darkgreen">4/4</td>
+    <td width="15px"></td>
+    <td class="brown">1/4</td>
+    <td class="yellow">2/4</td>
+    <td class="brown">1/4</td>
+    <td class="red">0/4</td>
+    <td class="red">0/4</td>
+    <td class="red">0/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="darkgreen">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="lightest">4/4</td>
+    <td class="darkgreen">4/4</td>
+</tr>
+<tr>
+    <td>new.target</td>
+    <td class="darkgreen">2/2</td>
+    <td width="15px"></td>
+    <td class="yellow">1/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="red">0/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="darkgreen">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="lightest">2/2</td>
+    <td class="darkgreen">2/2</td>
+</tr>
+<tr>
+    <td colspan="27">Bindings</td>
+</tr>
+<tr>
+    <td>const</td>
+    <td class="darkgreen">18/18</td>
+    <td width="15px"></td>
+    <td class="lightgreen">16/18</td>
+    <td class="lightgreen">16/18</td>
+    <td class="lightgreen">16/18</td>
+    <td class="red">0/18</td>
+    <td class="red">2/18</td>
+    <td class="lighter">14/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="lightest">18/18</td>
+    <td class="lightest">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="lightest">18/18</td>
+    <td class="lightest">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="darkgreen">18/18</td>
+    <td class="lightest">18/18</td>
+    <td class="lightest">18/18</td>
+    <td class="lightest">18/18</td>
+    <td class="darkgreen">18/18</td>
+    
+</tr>
+<tr>
+    <td>let</td>
+    <td class="darkgreen">16/16</td>
+    <td width="15px"></td>
+    <td class="lighter">12/16</td>
+    <td class="lightgreen">14/16</td>
+    <td class="lighter">12/16</td>
+    <td class="red">0/16</td>
+    <td class="red">0/16</td>
+    <td class="lighter">14/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="lightest">16/16</td>
+    <td class="lightest">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="lightest">16/16</td>
+    <td class="lightest">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="darkgreen">16/16</td>
+    <td class="lightest">16/16</td>
+    <td class="lightest">16/16</td>
+    <td class="lightest">16/16</td>
+    <td class="darkgreen">16/16</td>
+</tr>
+<tr>
+    <td>block-level function declaration</td>
+    <td class="darkgreen">Yes</td>
+    <td width="15px"></td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td>?</td>
+    <td>?</td>
+    <td>?</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="lightest">Yes</td>
+    <td class="lightest">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="lightest">Yes</td>
+    <td class="lightest">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="darkgreen">Yes</td>
+    <td class="lightest">Yes</td>
+    <td class="lightest">Yes</td>
+    <td class="lightest">Yes</td>
+    <td class="darkgreen">Yes</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.grid-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #373737;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:repeat(4/1f);
+    grid-template-rows: repeat(3/1f);
+}
+.grid-item{
+    text-align: center;
+  font-size: 30px;
+  border: 1px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-item-1{
+  grid-column: 1/5;
+}
+.grid-item-3{
+  grid-column: 2/5;
+}
+.grid-item-4{
+    grid-column: 1/5;
+}

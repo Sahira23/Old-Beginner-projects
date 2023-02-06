@@ -1,0 +1,10 @@
+
+  .container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  .columns{
+      display: grid;
+      grid-template-columns: 40% 55%;
+      justify-content: space-between;
+  }

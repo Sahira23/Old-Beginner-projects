@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* GLOBAL */
+.useless {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+/* !GLOBAL CSS-->FLEX */
+.d-flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+
+/* !COMMON CSS */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* !HEADER */
+header {
+  height: 600px;
+  background-image: url("./../images/backgroundimg.jpg");
+}
+h1 {
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Open Sans";
+  text-align: center;
+  margin-top: 210px;
+}
+header > form {
+  height: 40px;
+  margin-top: 26px;
+}
+header > form > input,
+header > form > button {
+  border: none;
+  outline: none;
+}
+header > form > input {
+  width: 325px;
+  padding-left: 15px;
+}
+header > form > input::placeholder {
+  font-family: "Open Sans";
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  font-weight: 400;
+}
+header > form > button {
+  width: 120px;
+  background-color: #fd4f32;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+/* !NAV-BAR */
+nav {
+  height: 60px;
+}
+/* !ARTICLE-TOP-DESTINATIONS */
+article.top-destinations {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: #eee;
+}
+article.top-destinations > h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+article.top-destinations > p {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15px;
+}
+/* !CARDS */
+.traveller {
+  height: 320px;
+  width: 24%;
+  background-color: red;
+  margin-top: 36px;
+}
+.traveller-top {
+  height: 200px;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.traveller-bottom {
+  height: 120px;
+  background-color: #fff;
+}
+.australia {
+  background-image: url("./../images/Australia.jpg");
+}
+.south-america {
+  background-image: url("./../images/South-America.jpg");
+}
+.north-america {
+  background-image: url("./../images/North\ America.jpg");
+}
+.europe {
+  background-image: url("./../images/Europe.jpg");
+}
+.traveller-bottom {
+  padding: 20px;
+}
+.traveller-bottom > h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.traveller-bottom > p {
+  margin-top: 15px;
+  width: 204px;
+  height: 75px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #696969;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+/* !ARTICLE BEFORE-YOU-LIVE */
+article.before-you-live {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+article.before-you-live > h2 {
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #323232;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+.info {
+  margin-top: 70px;
+  width: 300px;
+  height: 115px;
+}
+.info > h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.info > p {
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+article.before-you-live > h3 {
+  margin-top: 80px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+article.before-you-live > form {
+  margin-top: 30px;
+  height: 40px;
+}
+article.before-you-live > form > input,
+article.before-you-live > form > button {
+  border: none;
+  outline: none;
+}
+article.before-you-live > form > input {
+  width: 325px;
+  padding-left: 15px;
+  background-color: #eeeeee;
+}
+article.before-you-live > form > input::placeholder {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+article.before-you-live > form > button {
+  width: 120px;
+  background-color: #fd4f32;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+/* !FOOTER */
+footer {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #eee;
+}
+footer > h5 {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+.links > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #323232;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-left: 20px;
+}

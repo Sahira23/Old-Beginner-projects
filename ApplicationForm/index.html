@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- !REQUIRED META TAGS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- !STYLE CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- !CONTAINER -->
+    <div class="container useless">
+        <!-- !APPLICATION FORM -->
+        <h1>APPLICATION FORM</h1>
+        <!-- !FORM  -->
+        <form>
+            <!-- !ROW 1 -->
+            <div class="row1 d-flex justify-between">
+                <!-- !NAME -->
+                <div class="name d-flex direction-column">
+                    <label for="name">First Name *</label>
+                    <input type="text" name="name" id="name" placeholder="Ex.John"/>
+
+                </div>
+                <!-- !LAST-NAME -->
+                <div class="last-name">
+                    <div class="name d-flex direction-column">
+                        <label for="last-name">Last Name *</label>
+                        <input type="text" name="name" id="last-name" placeholder="Ex.Smith"/>
+                </div>
+            </div>
+            </div>
+            <!-- !ROW 2 -->
+            <div class="row2 d-flex direction-column">
+                <!-- !DATE OF BIRTH -->
+                <label for="date">Date of Birth*</label>
+                <input type="date" name="date" id="date" placeholder="Ex.Smith"/>
+            </div>
+            <!-- !ROW 3 -->
+            <div class="row3 d-flex direction-column">
+                <!-- !MAIL -->
+                <label for="mail">Email*</label>
+                <input type="email" name="email" id="email" placeholder="user@domain.com"/>
+            </div>
+            <!-- !ROW 4 -->
+            <div class="row4 d-flex direction-column">
+                <!-- !PHONE NUMBER -->
+                <label for="tel">Whatsapp Number *</label>
+                <input type="tel" name="tel" id="tel" placeholder="77777777"/>
+            </div>
+            <!-- !ROW 5 -->
+            <div class="row5 d-flex direction-column">
+                <!-- !ADDRESS -->
+                <label for="text">Address *</label>
+                <input type="address" name="address" id="address" placeholder="Ex. Room No-361, 33/1, 3rd Floor"/>
+                <span>Address Line 1</span>
+                <!-- !LINE 2 -->
+                <div class="line2 d-flex direction-column">
+                    <input type="address" name="address" id="address" placeholder="Ex. Marshal House, N S Road"/>
+
+                    <span>Address Line 2</span>
+                </div>
+                <!-- !LINE 3 -->
+                <div class="line3 d-flex justify-between">
+                    <!-- !CITY -->
+                    <div class="city d-flex direction-column">
+                    <input type="address" name="address" id="address" placeholder="Ex.Kolkata"/>
+                    <span>City</span>
+                    </div>
+                    <!-- !STATE -->
+                    <div class="state d-flex direction-column">
+                    <input type="address" name="address" id="address" placeholder="Ex.West Bengal"/>
+                    <span>State</span>
+                    </div>
+                </div>
+                <!-- !LINE 4 -->
+                <div class="line4 d-flex direction-column">
+                    <!-- !ZIP CODE -->
+                    <input type="text" name="zip" id="zip" placeholder="Ex.70000001"/>
+                    <span>Zip Code</span> 
+                </div>
+                </div>
+                <!-- !ROW 6 -->
+                <div class="row6 d-flex justify-between">
+                    <!-- !QUALIFICATION -->
+                    <div class="qualification d-flex direction-column">
+                   <span>Qualification</span>
+                   <textarea placeholder="Ex.  2000 - 2004   Prague Engineer College ,etc" ></textarea>
+                    </div>
+                    <!-- !EXPERIENCE -->
+                    <div class="experience d-flex direction-column">
+                     <span>Experience</span>
+                     <input type="text" name="experience" id="experience" placeholder="Ex. Associate Software Engineer at Zendesk"/>
+                    </div>
+                </div>
+                <!-- !ROW 7 -->
+                <div class="row7 d-flex direction-column">
+                    <label for="date">Your Picture *</label>
+                    <input type="file" name="image" id="image" placeholder="Choose file"/>
+                    <p>The image uploaded will be rendered inside the box below.</p>
+                </div>
+                <!-- !ROW8 -->
+                <div class="row8 d-flex align-center justify-center">
+                    <p>Upload Image Result</p>
+                </div>
+                <!-- !END OF THE FORM BUTTON -->
+                <div class="end d-flex justify-center">
+                <button type="submit">SUBMIT</button>
+            </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
